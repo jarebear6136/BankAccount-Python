@@ -25,7 +25,9 @@ while userName != uN or passWord != pW and attempts <4:
      
 if userName==uN and passWord==pW:
     print ('Welcome')
-    exec(open(Bank2.__file__).read())
-    
+    f = open("Bank2")
+    print(f.readline)
+    f.close
+   
 else:
     print("Your account is disabled")
