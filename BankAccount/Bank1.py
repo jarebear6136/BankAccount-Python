@@ -5,7 +5,9 @@ Created on Mon Apr  5 14:13:32 2021
 @author: jarrett
 This is the login screen 
 """
+from os import read
 import Bank2
+
 #Username Info
 userName='Username'
 passWord='Password'
@@ -23,7 +25,7 @@ while userName != uN or passWord != pW and attempts <4:
      
 if userName==uN and passWord==pW:
     print ('Welcome')
-    exec(open("Bank2.py").read())
+    exec(open(Bank2.__file__).read())
     
 else:
     print("Your account is disabled")
