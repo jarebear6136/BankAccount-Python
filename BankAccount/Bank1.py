@@ -24,10 +24,8 @@ while userName != uN or passWord != pW and attempts <4:
      attempts+=1
      
 if userName==uN and passWord==pW:
-    print ('Welcome')
-    f = open("Bank2")
-    print(f.readline)
-    f.close
+    execfile("MacintoshHD/Users/jarrett/Documents/GitHub/BankAccount-Python/BankAccount/Bank2.py")
+    
    
 else:
     print("Your account is disabled")
