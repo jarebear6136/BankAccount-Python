@@ -23,8 +23,9 @@ while userName != uN or passWord != pW and attempts <4:
      pW=input("Enter password: ")
      attempts+=1
      
-if userName==uN and passWord==pW:
     execfile("MacintoshHD/Users/jarrett/Documents/GitHub/BankAccount-Python/BankAccount/Bank2.py")
+
+
     
    
 else:
